@@ -4,6 +4,8 @@
 
 The platform's core philosophy centers around a **Finite State Machine (FSM)**-driven architecture, enabling seamless, high-level skill switching for complex tasks like chasing, shooting, and defense.
 
+> This repo is under developing , hence not runnable yet
+
 ## 🌟 Key Features
 
   * **FSM-Driven Control:** Implement modular and robust high-level strategies through parallel state machines (`fsmLab`).
@@ -30,6 +32,7 @@ This repository is heavily inspired by, and in parts structurally adapted from, 
   * **Configuration Library:** [Renforce-Dynamics/robotlib](https://github.com/Renforce-Dynamics/robotlib)
   * **Asset Management:** [Renforce-Dynamics/assetslib](https://github.com/Renforce-Dynamics/assetslib)
   * **Utility & Tracking Components:** [Renforce-Dynamics/trackerLab](https://github.com/Renforce-Dynamics/trackerLab)
+  * **Finite State Machine:** [Renforce-Dynamics/fsmLab](https://github.com/Renforce-Dynamics/fsmLab)
 
 ## 🛠️ Installation
 

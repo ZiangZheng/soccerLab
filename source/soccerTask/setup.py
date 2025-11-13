@@ -3,7 +3,7 @@
 from setuptools import setup
 
 # Package metadata (hardcoded)
-PACKAGE_NAME = "fsmLab"
+PACKAGE_NAME = "soccerTask"
 VERSION = "0.1.0"
 AUTHOR = "zaterval"
 MAINTAINER = "Tsinghua University"

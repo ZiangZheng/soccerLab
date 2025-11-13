@@ -45,8 +45,9 @@ clone_repo git@github.com:Renforce-Dynamics/robotlib.git ./source/robotlib
 clone_repo git@github.com:Renforce-Dynamics/fsmLab.git ./source/fsmLab
 
 modules=(
-    "./source/fighterLab"
-    "./source/fighterTask"
+    "./source/rsl_rl"
+    "./source/soccerLab"
+    "./source/soccerTask"
     "./source/fsmLab"
     "./source/robotlib"
     "./source/third_party/beyondMimic"

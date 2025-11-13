@@ -18,12 +18,13 @@ settings_path = os.path.join(repo_dir, ".vscode", "settings.json")
 
 # Relative source paths to include (relative to this script)
 relative_extra_paths = [
-    "./source/fighterLab",
-    "./source/fighterTask",
+    "./source/rsl_rl",
+    "./source/soccerLab",
+    "./source/soccerTask",
     "./source/fsmLab",
     "./source/robotlib",
     "./source/third_party/beyondMimic",
-    "./source/third_party/locomotion_rl_lab",
+    "./source/third_party/locomotion_rl_lab"
 ]
 
 # Normalize and convert relative paths to absolute paths
@@ -46,7 +47,7 @@ else:
 
 # Ensure the structure for python.analysis.extraPaths exists
 if "python.analysis.extraPaths" not in settings:
-    settings["python.analysis.extraPaths"] = {}
+    settings["python.analysis.extraPaths"] = []
 
 extra_paths = settings["python.analysis.extraPaths"]
 

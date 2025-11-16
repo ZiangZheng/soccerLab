@@ -21,7 +21,7 @@ relative_extra_paths = [
     "./source/rsl_rl",
     "./source/soccerLab",
     "./source/soccerTask",
-    "./source/fsmLab",
+    # "./source/fsmLab",
     "./source/robotlib",
     "./source/third_party/beyondMimic",
     "./source/third_party/locomotion_rl_lab"

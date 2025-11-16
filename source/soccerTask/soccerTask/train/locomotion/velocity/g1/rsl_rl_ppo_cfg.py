@@ -35,5 +35,3 @@ class BasePPORunnerCfg(RslRlOnPolicyRunnerCfg):
         desired_kl=0.01,
         max_grad_norm=1.0,
     )
-
-    init_weight = "/home/ununtu/code/renforce/fighterLab/logs/rsl_rl/2025-11-06_20-24-27/model_12000.pt"

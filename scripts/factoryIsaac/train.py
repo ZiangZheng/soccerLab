@@ -10,7 +10,7 @@ import argtool as rsl_arg_cli  # isort: skip
 parser = argparse.ArgumentParser(description="Train an RL agent with RSL-RL.")
 
 parser.add_argument("--task", type=str, default=None, help="Name of the task.")
-parser.add_argument("--alg", type=str, default="PPO", help="Name of the algorithm.")
+# parser.add_argument("--alg", type=str, default="PPO", help="Name of the algorithm.")
 parser.add_argument("--cfg", type=str, default=None, help="Directly using the target cfg object.")
 parser.add_argument("--num_envs", type=int, default=None, help="Number of environments to simulate.")
 parser.add_argument("--seed", type=int, default=42, help="Seed used for the environment")
@@ -48,7 +48,7 @@ from isaaclab_tasks.utils import get_checkpoint_path, parse_env_cfg
 from isaaclab.utils.dict import print_dict
 from isaaclab.utils.io import dump_yaml
 
-import fighterTask.train
+import soccerTask.train
 
 def main():
     task_name, env_cfg, agent_cfg, log_dir = rsl_arg_cli.make_cfgs(args_cli, parse_env_cfg, None)
